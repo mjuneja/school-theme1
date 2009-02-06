@@ -1,0 +1,39 @@
+* { margin: 0; padding: 0; }
+body { background: #393930; font-size: 12px; font-family: arial, verdana,sans-serif; }
+li { list-style: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+.m0 { margin: 0 !important; }
+.strong { font-weight: bold; }
+
+.wrapper { background: #fff url(images/wrapperBG.png) repeat-y left top; width: 1000px; margin: 0 auto; padding: 0 10px; }
+.header { background: #fff url(images/banner.png) repeat-y left top; height: 244px; width: 1000px; display: block; text-indent: -10000px; }
+.notice { background: #016293; color: #fff; padding: 10px 20px;}
+.content { overflow: hidden; padding: 20px;  }
+.leftNav { width: 170px; float: left; }
+.leftNav ul.login { background: #f1f1f1; border: 1px solid #f1f1f1;  margin-bottom: 15px; }
+.leftNav ul.login , .leftNav ul.login a { color: #666; }
+.leftNav ul.login li.head { background: #f5f5f5; font-weight: bold; padding: 1px 10px; }
+.leftNav ul.login li { background: #fff; padding: 5px 10px; margin: 2px 0; }
+
+
+.leftNav ul.subNav {}
+.leftNav ul.subNav li { background: #95d002; color: #fff; margin: 2px 0; padding: 6px 10px; }
+.leftNav ul.subNav li a { color: #fff; font-weight: bold; text-decoration:none;  }
+
+.mainContent { width: 600px; float: left; margin: 0 25px; color: #202020; }
+.mainContent h1.mainHeading { background:  url(images/dot.png) repeat-x left bottom; color: #513f3f; margin-bottom: 15px; font-size: 21px;   }
+
+.rightNav { float: left; margin-left: 20px; }
+.rightNav ul { margin-top: -15px; }
+.rightNav .activityClub, .rightNav .admissions, .rightNav .alumni, .rightNav .currentNews, .rightNav .downloads, .rightNav .imageGallery { text-indent: -10000px; display: block; height: 86px; width: 108px; margin: 15px 0; }
+.rightNav .activityClub { background: url(images/btnActivityClub.png) no-repeat left top; }
+.rightNav .admissions { background: url(images/btnAdmissions.png) no-repeat left top; }
+.rightNav .alumni { background: url(images/btnAlumni.png) no-repeat left top; }
+.rightNav .currentNews { background: url(images/btnCurrentNews.png) no-repeat left top; }
+.rightNav .downloads { background: url(images/btnDownloads.png) no-repeat left top; }
+.rightNav .imageGallery { background: url(images/btnImageGallery.png) no-repeat left top; }
+
+.footer { background: #333; color: #8d8d8d; border-top: 2px solid #181818; text-align: right; padding: 10px 20px; }
+.footer a { color: #8d8d8d; }
+
