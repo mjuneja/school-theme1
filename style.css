@@ -22,7 +22,7 @@ a:hover { text-decoration: underline; }
 .leftNav ul.subNav li a { color: #fff; font-weight: bold; text-decoration:none;  }
 
 .mainContent { width: 600px; float: left; margin: 0 25px; color: #202020; }
-.mainContent h1.mainHeading { background:  url(images/dot.png) repeat-x left bottom; color: #513f3f; margin-bottom: 5px; font-size: 21px;   }
+.mainContent h1.mainHeading { background:  url(images/dot.png) repeat-x left bottom; color: #513f3f; margin-bottom: 5px; font-size: 21px; padding-bottom:3px;  }
 .mainContent p { padding: 10px 0; line-height: 18px; }
 .rightNav { float: left; margin-left: 20px; }
 .rightNav ul { margin-top: -15px; }
